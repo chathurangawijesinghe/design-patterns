@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/SingletonPattern/">
+    <Project Path="src/SingletonPattern/Singleton/Singleton.csproj" />
+  </Folder>
+</Solution>
