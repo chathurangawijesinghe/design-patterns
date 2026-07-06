@@ -1,5 +1,8 @@
 <Solution>
   <Folder Name="/src/" />
+  <Folder Name="/src/FactoryPattern/">
+    <Project Path="src/FactoryPattern/Factory/Factory.csproj" />
+  </Folder>
   <Folder Name="/src/SingletonPattern/">
     <Project Path="src/SingletonPattern/Singleton/Singleton.csproj" />
   </Folder>
