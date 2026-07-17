@@ -1,5 +1,8 @@
 <Solution>
   <Folder Name="/src/" />
+  <Folder Name="/src/AbstractFactoryPattern/">
+    <Project Path="src/AbstractFactoryPattern/AbstractFactory/AbstractFactory.csproj" />
+  </Folder>
   <Folder Name="/src/FactoryPattern/">
     <Project Path="src/FactoryPattern/Factory/Factory.csproj" />
   </Folder>

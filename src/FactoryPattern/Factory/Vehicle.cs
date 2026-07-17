@@ -1,4 +1,4 @@
-public interface Vehicle
+public abstract class Vehicle
 {
-    public Task PrintVehicle();
+    public abstract Task PrintVehicle();
 }

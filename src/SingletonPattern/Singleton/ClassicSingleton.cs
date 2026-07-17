@@ -1,6 +1,6 @@
 public class ClassicSingleton
 {
-    private static ClassicSingleton _instance;
+    private static ClassicSingleton? _instance;
 
     private ClassicSingleton() { }
 
@@ -8,10 +8,7 @@ public class ClassicSingleton
     {
         get
         {
-            if (_instance == null)
-            {
-                _instance = new ClassicSingleton();
-            }
+            _instance ??= new ClassicSingleton();
             return _instance;
         }
     }
