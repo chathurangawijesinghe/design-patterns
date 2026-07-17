@@ -1,7 +1,8 @@
-public class FourWheeler : Vehicle
+public class FourWheeler : IVehicle
 {
-    public override async Task PrintVehicle()
+    public Task PrintVehicle()
     {
         Console.WriteLine("This is a Four Wheeler");
+        return Task.CompletedTask;
     }
 }

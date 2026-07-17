@@ -1,5 +1,5 @@
 ﻿IVehicleFactory vehicleFactory = new TwoWheelerFactory();
-Vehicle vehicle = vehicleFactory.CreateVehicle();
+IVehicle vehicle = vehicleFactory.CreateVehicle();
 await vehicle.PrintVehicle();
 
 vehicleFactory = new FourWheelerFactory();

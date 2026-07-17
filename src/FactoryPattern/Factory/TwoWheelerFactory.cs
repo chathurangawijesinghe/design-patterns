@@ -1,6 +1,6 @@
 public class TwoWheelerFactory : IVehicleFactory
 {
-    public Vehicle CreateVehicle()
+    public IVehicle CreateVehicle()
     {
         return new TwoWheeler();
     }
