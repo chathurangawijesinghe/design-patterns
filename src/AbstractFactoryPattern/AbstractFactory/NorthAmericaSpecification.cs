@@ -1,4 +1,4 @@
-public class NorthAmericaSpecification : CarSpecification
+public class NorthAmericaSpecification : ICarSpecification
 {
     public void Display()
     {

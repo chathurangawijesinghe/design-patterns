@@ -1,4 +1,4 @@
-public class Hatchback: Car
+public class Hatchback: ICar
 {
     public void Assemble()
     {

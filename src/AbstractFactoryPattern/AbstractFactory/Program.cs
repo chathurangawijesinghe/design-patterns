@@ -1,16 +1,16 @@
 ﻿
 // creating car for north america
-CarFactory northAmericaFactory = new NorthAmericaCarFactory();
-Car northAmericaCar = northAmericaFactory.CreateCar();
-CarSpecification northAmericaSpecification = northAmericaFactory.CreateSpecification();
+ICarFactory northAmericaFactory = new NorthAmericaCarFactory();
+ICar northAmericaCar = northAmericaFactory.CreateCar();
+ICarSpecification northAmericaSpecification = northAmericaFactory.CreateSpecification();
 
 northAmericaCar.Assemble();
 northAmericaSpecification.Display();
 
 // creating car for europe
-CarFactory europeFactory = new EuropeCarFactory();
-Car europeCar = europeFactory.CreateCar();
-CarSpecification europeSpecification = europeFactory.CreateSpecification();
+ICarFactory europeFactory = new EuropeCarFactory();
+ICar europeCar = europeFactory.CreateCar();
+ICarSpecification europeSpecification = europeFactory.CreateSpecification();
 
 europeCar.Assemble();
 europeSpecification.Display();

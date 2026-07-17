@@ -1,11 +1,11 @@
-public class NorthAmericaCarFactory : CarFactory
+public class NorthAmericaCarFactory : ICarFactory
 {
-    public Car CreateCar()
+    public ICar CreateCar()
     {
         return new Sedan();
     }
 
-    public CarSpecification CreateSpecification()
+    public ICarSpecification CreateSpecification()
     {
         return new NorthAmericaSpecification();
     }

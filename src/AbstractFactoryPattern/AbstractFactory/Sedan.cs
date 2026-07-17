@@ -1,4 +1,4 @@
-public class Sedan: Car
+public class Sedan: ICar
 {
     public void Assemble()
     {

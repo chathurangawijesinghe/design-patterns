@@ -1,4 +1,4 @@
-public class EuropeSpecification : CarSpecification
+public class EuropeSpecification : ICarSpecification
 {
     public void Display()
     {
